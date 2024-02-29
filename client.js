@@ -24,6 +24,8 @@ Build.GetContext().RenameMapEnable.Value = true;
 Build.GetContext().ChangeMapAuthorsEnable.Value = true;
 Build.GetContext().LoadMapEnable.Value = true;
 Build.GetContext().ChangeSpawnsEnable.Value = true;
+// ��� ������������ �����
+Player.Skin.Type.Value = 2;
 
 // ��������� ����
 Properties.GetContext().GameModeName.Value = "GameModes/Peace";
