@@ -1,6 +1,6 @@
 {
-  "Name": "PEACE",
-  "Description": "МИРНЫЙ РЕЖИМ",
+  "Name": "ТДМ В МИРЕ",
+  "Description": "ОРУЖИЯ",
   "StartClientVersion": 334,
   "MapFilter": {
     "IsBlank": false,
