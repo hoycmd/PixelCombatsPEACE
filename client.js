@@ -39,11 +39,11 @@ if (blue || !red && !blue) {
 	Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 	if(GameMode.Parameters.GetBool("BlueHasNothing")){
 		var inventory = Inventory.GetContext();
-		Teams.Get("Blue").Inventory.Main.Value = false;
-		Teams.Get("Blue").Inventory.Secondary.Value = false;
-		Teams.Get("Blue").Inventory.Melee.Value = false;
-		Teams.Get("Blue").Inventory.Explosive.Value = false;
-		Teams.Get("Blue").Inventory.Build.Value = false;
+		Teams.Get("Blue").Inventory.Main.Value = true;
+		Teams.Get("Blue").Inventory.Secondary.Value = true;
+		Teams.Get("Blue").Inventory.Melee.Value = true;
+		Teams.Get("Blue").Inventory.Explosive.Value = true;
+		Teams.Get("Blue").Inventory.Build.Value = true;
 	}
 }
 
